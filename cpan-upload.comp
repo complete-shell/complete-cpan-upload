@@ -1,0 +1,18 @@
+CompleteShell v0.2
+
+N cpan-upload   v0.0.1  ..'Upload a distribution to the CPAN'
+
+U 'cpan-upload [options] file-to-upload-1 [ file-to-upload-2 ... ]'
+
+O --verbose           ..'Enable verbose logging'
+O --help              ..'Display help message'
+O --dry-run           ..'Do not actually upload anything'
+O --user =str         ..'Your PAUSE username'
+O --password =str     ..'The password to your PAUSE account'
+O --directory =dir    ..'A dir in your CPAN space in which to put the file'
+O --http-proxy =str   ..'URL of the http proxy to use in uploading'
+O --ignore-errors     ..'Instead of aborting, continue to next file on error'
+O --config =file      ..'Config file to use; defaults to ~/.pause'
+O --md5               ..'Compute MD5 checksums of the files'
+
+A +file...
