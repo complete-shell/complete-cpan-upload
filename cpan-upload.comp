@@ -1,6 +1,7 @@
 CompleteShell v0.2
 
 N cpan-upload   v0.0.1  ..'Upload a distribution to the CPAN'
+M tags perl perl5 cpan
 
 U 'cpan-upload [options] file-to-upload-1 [ file-to-upload-2 ... ]'
 
